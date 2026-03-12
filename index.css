@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-black text-gray-300;
+  }
+}
+
+.glass-card {
+  @apply bg-charcoal bg-opacity-50 backdrop-blur-md border border-gray-800 rounded-xl;
+}
+
+.neon-border {
+  @apply border-neonBlue shadow-[0_0_10px_rgba(0,242,255,0.3)];
+}
+
+/* Custom scrollbar for Dark Theme */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  @apply bg-black;
+}
+::-webkit-scrollbar-thumb {
+  @apply bg-gray-800 rounded-full hover:bg-gray-700;
+}
