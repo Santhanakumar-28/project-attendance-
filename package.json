@@ -1,0 +1,27 @@
+{
+  "name": "project-team-attendence",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  "start": "node server/server.js"
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "autoprefixer": "^10.4.27",
+    "postcss": "^8.5.8",
+    "tailwindcss": "^4.2.1"
+  },
+  "dependencies": {
+    "axios": "^1.13.6",
+    "date-fns": "^4.1.0",
+    "framer-motion": "^12.35.2",
+    "lucide-react": "^0.577.0",
+    "react-hot-toast": "^2.6.0",
+    "react-router-dom": "^7.13.1",
+    "recharts": "^3.8.0"
+  }
+}
